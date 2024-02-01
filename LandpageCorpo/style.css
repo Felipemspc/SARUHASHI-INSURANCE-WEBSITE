@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+body {
+  background: -webkit-linear-gradient(left, #87aef9, #fcfdbb);
+  background: -moz-linear-gradient(left, #87aef9, #fcfdbb);
+  background: -ms-linear-gradient(left, #87aef9, #fcfdbb);
+  background: -o-linear-gradient(left, #87aef9, #fcfdbb);
+  background: linear-gradient(to right, #87aef9, #fcfdbb);
+}
+
+header {
+  background-color: #24252a69;
+  box-shadow: 0px 3px 10px #464646fa;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem 6rem;
+  gap: 5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  padding-left: 1rem;
+  font-family: "Lato", sans-serif; 
+  color: #fff;
+}
+.imagem-logo{
+    max-width: 100%;
+    width: 40px;
+    height: auto;
+  }
+.nav-list {
+  display: flex;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  
+  
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  
+}
+a:hover{
+  text-decoration: underline;
+}
+
+.nav-item {
+  
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.15rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+.whatsapplogo{
+  max-width: 100%;
+  width: 30px;
+  height: auto;
+}  
+.whatsapplogo:hover{
+  cursor: pointer;
+  width: 35px;
+}
+  
+  
+
+
+
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.textoesquerda {
+  
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+}
+.paragrafoesquerda {
+  text-align: justify;
+  
+  font-size: 1.1rem;
+}
+.imagemfamilia{
+  max-width: 100%;
+  width: 600px;
+  height: auto;
+  
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .nav-bar {
+    
+    padding: 1.5rem 4rem;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .paragrafoesquerda {
+    text-align: center;
+    font-size:0.9rem;
+  }
+  .textoesquerda>h1{
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.78rem;
+  }
+  h1{
+    
+    
+    font-size: 1rem;
+  }
+  .nav-item {
+    display: none;
+  }
+  
+  .mobile-menu-icon {
+    display: block;
+  }
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .mobile-menu .nav-item {
+    display: block;
+    padding-top: 1.2rem;
+  }
+  .whatsapplogo{
+    display: none;
+  }
+  
+  .open {
+    display: block;
+  }
+}
