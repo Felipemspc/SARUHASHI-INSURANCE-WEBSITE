@@ -210,4 +210,7 @@ main {
     width: 330px;
     height: auto;
   }
+  .orcamentopai{
+    font-size: 1.3rem;
+  }
 }
