@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.692);
+    width: 100vw;
+    height: 100dvh;
+    
+    
+    
+}
+
+
+.todasimgs{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.caixa1{
+    
+    
+    text-align: center;
+    outline: solid rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.438);
+
+}
+
+.img1{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.caixa1:hover{
+    background-color: aliceblue;
+}
+
+
+
+.bike{
+    width: 90px;
+    height: auto;
+}
