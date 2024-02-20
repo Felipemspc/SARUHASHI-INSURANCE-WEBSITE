@@ -104,12 +104,23 @@ main {
   padding-bottom: 1rem;
   font-size: 1.1rem;
 }
+.familia{
+
+  width:600px;
+}
 .imagemfamilia {
-  border-radius: 45px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.692);
-  max-width: 100%;
-  width: 450px;
-  height: auto;
+  outline:  1px solid white;
+    padding: 35px;
+   width: 120px;
+   height: auto;
+  
+  
+ 
+}
+.imagemfamilia:hover{
+  background-color:hsla(0, 0%, 56%, 0.397); 
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
 }
 
 .orcamentopai {
@@ -186,9 +197,15 @@ main {
   .open {
     display: block;
   }
+  .familia{
+    margin-left: 90px;
+    width: 400px;
+    
+    
+  }
   .imagemfamilia {
-    max-width: 100%;
-    width: 330px;
+    
+    width: 90px;
     height: auto;
     margin-top: 2rem;
   }
