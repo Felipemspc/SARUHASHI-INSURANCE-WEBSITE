@@ -50,11 +50,8 @@ header {
   justify-content: center;
   list-style: none;
 }
-a{
-  padding-top: 20px;
-}
-a:link {
-  text-decoration: none;
+a:hover {
+  text-decoration: underline;
 }
 
 .nav-item {
