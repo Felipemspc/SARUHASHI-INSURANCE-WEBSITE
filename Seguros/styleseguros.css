@@ -134,6 +134,16 @@ main {
   font-weight: 400;
   text-align: center;
 }
+.whatsme{
+  text-decoration: none;
+}
+.whatsme:link{
+  text-decoration: none;
+}
+.whatsme:visited{
+  color: black;
+  text-decoration: none;
+}
 
 .img1 {
   display: flex;
@@ -162,6 +172,7 @@ main {
   max-width: 100%;
   width: 35px;
   height: auto;
+  visibility: hidden;
 }
 .orcamento:hover {
   cursor: pointer;
@@ -224,7 +235,9 @@ main {
   .open {
     display: block;
   }
-
+  .orcamento{
+    visibility: visible;
+  }
   .orcamentopai {
     font-size: 1.3rem;
   }
